@@ -1,7 +1,7 @@
 # Michael Scott GPT-3 Chat Bot
-Access the chat bot [here](https://gpt3-michaelscottbot.up.railway.app/).
+Michael Scott is a character played in a comedy show, The Office. This chat bot simulates Michael's responses with the use of GPT-3. Access the chat bot [here](https://gpt3-michaelscottbot.up.railway.app/).
 
-## Development
+
 ## cd into the repo
 cd gpt3-writer-starter
 
