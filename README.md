@@ -1,7 +1,7 @@
-# buildspace 
-### Welcome 👋
-This is the starter template for the [build your own AI writing assistant w/ GPT-3](https://buildspace.so/builds/ai-writer) project.
+# Michael Scott GPT-3 Chat Bot
+Access the chat bot [here](https://gpt3-michaelscottbot.up.railway.app/).
 
+## Development
 ## cd into the repo
 cd gpt3-writer
 
