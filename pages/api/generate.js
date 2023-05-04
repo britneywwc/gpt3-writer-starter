@@ -45,7 +45,7 @@ const generateAction = async (req, res) => {
     model: 'text-davinci-002',
     prompt: `${secondPrompt}`,
     temperature: 0.85,
-    max_tokens: 1250,
+    max_tokens: 1000,
   });
   
   const secondPromptOutput = secondPromptCompletion.data.choices.pop();

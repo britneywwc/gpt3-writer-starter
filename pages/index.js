@@ -62,32 +62,21 @@
                 </div>
               </a>
           </div>
+
           {apiOutput && (
-    <div className="output">
-      <div className="output-header-container">
-        <div className="output-header">
-          <h3>Output</h3>
-        </div>
+            <div className="output">
+              <div className="output-header-container">
+                <div className="output-header">
+                  <h3>Output</h3>
+                </div>
+              </div>
+              <div className="output-content">
+                <p>{apiOutput}</p>
+              </div>
+            </div> 
+            )}
       </div>
-      <div className="output-content">
-        <p>{apiOutput}</p>
-      </div>
-    </div> 
-    )}
-        </div>
-        <div className="badge-container grow">
-          <a
-            href="https://buildspace.so/builds/ai-writer"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <div className="badge">
-              <Image src={buildspaceLogo} alt="buildspace logo" />
-              <p>build with buildspace</p>
-            </div>
-          </a>
-        </div>
-      </div>
+    </div>
     );
   };
 
